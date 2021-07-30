@@ -8,5 +8,5 @@
 .target(
     name: "Name",
     dependencies: ["BaiduPush"],
-    linkerSettings: [.linkedLibrary("libz"), .linkedFramework("Foundation"), .linkedFramework("CoreTelephony"), .linkedFramework("AdSupport"), .linkedFramework("CoreLocation"), .linkedFramework("SystemConfiguration")]),
+    linkerSettings: [.linkedLibrary("z"), .linkedFramework("Foundation"), .linkedFramework("CoreTelephony"), .linkedFramework("AdSupport"), .linkedFramework("CoreLocation"), .linkedFramework("SystemConfiguration")]),
 ```
