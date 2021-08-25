@@ -22,9 +22,15 @@ FOUNDATION_EXPORT const unsigned char BaiduPushVersionString[];
 /// 系统库
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <CoreLocation/CoreLocation.h>
 #import <SystemConfiguration/SystemConfiguration.h>
-#import <AdSupport/AdSupport.h>
+/**
+ 在需要时添加
+ */
+//#import <CoreLocation/CoreLocation.h>
+/**
+ 现在用的是无AD版
+ */
+//#import <AdSupport/AdSupport.h>
 
 /// 百度推送头文件
 #import <BaiduPush/BPush.h>
